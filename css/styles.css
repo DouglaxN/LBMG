@@ -747,12 +747,11 @@
         flex-wrap: wrap;
         margin-top: calc(-1 * var(--bs-gutter-y));
         margin-right: calc(-0.5 * var(--bs-gutter-x));
-        margin-left: calc(-0.5 * var(--bs-gutter-x));
     }
     
     .row>* {
         flex-shrink: 0;
-        width: 100%;
+        /* width: 100%; */
         max-width: 100%;
         padding-right: calc(var(--bs-gutter-x) * 0.5);
         padding-left: calc(var(--bs-gutter-x) * 0.5);
@@ -2967,7 +2966,7 @@
     .btn {
         display: inline-block;
         font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-        font-weight: 800;
+        font-weight: 600;
         line-height: 1.5;
         color: #212529;
         text-align: center;
@@ -11038,10 +11037,6 @@
         text-align: center;
     }
     
-    .container_equipe {
-        margin-top: 4rem;
-    }
-    
     .equipe-preview>a {
         color: #212529;
     }
@@ -11081,20 +11076,57 @@
     }
     
     .titulo_equipe {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     
     .nome_title {
-        font-size: 1.2rem;
+        font-size: 1rem;
+        align-items: center;
     }
     
     .description_equipe {
-        font-size: 1rem;
+        font-size: 0.9rem;
+        margin-top: -0.1rem;
+    }
+    
+    .container_coordenadoras {
+        padding-top: 4rem;
+        background: #fff;
     }
     
     .img_coordenadoras {
-        width: 13rem;
-        height: 13rem;
+        align-items: center;
+        width: 15rem;
+        height: 15rem;
+    }
+    
+    .container_startup {
+        padding-top: 5rem;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        background: #ebf1f5;
+    }
+    
+    .startup_title {
+        justify-items: baseline;
+        gap: 1rem;
+        font-size: 2rem;
+    }
+    
+    .startup_description {
+        text-align: justify;
+        font-size: 1.1rem;
+    }
+    
+    .img_startup {
+        position: relative;
+        padding-top: 2rem;
+        width: 25rem;
+        margin-bottom: 2rem;
+    }
+    
+    .container_vitrine {
+        padding: 5rem;
     }
     
     .subtitle_container {
@@ -11133,4 +11165,23 @@
     .pesquisa_description {
         font-size: 1.1rem;
         text-align: justify;
+    }
+    
+    .container_servico {
+        padding-top: 5rem;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 2rem;
+    }
+    
+    .servico_title {
+        font-size: 1.5rem;
+        margin-top: 0.6rem;
+        margin-bottom: 0.6rem;
+        align-items: center;
+    }
+    
+    .img_dna {
+        width: 7rem;
+        margin-left: 5rem;
     }
