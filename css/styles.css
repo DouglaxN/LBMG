@@ -11100,6 +11100,14 @@
         height: 15rem;
     }
     
+    .list_inline_coordenadoras {
+        margin-top: -2rem;
+    }
+    
+    .icone_coordenadoras {
+        width: 2rem;
+    }
+    
     .container_startup {
         padding-top: 5rem;
         padding-bottom: 1rem;
@@ -11184,4 +11192,25 @@
     .img_dna {
         width: 7rem;
         margin-left: 5rem;
+    }
+    
+    .container_docentes {
+        margin-top: 10rem;
+    }
+    
+    .titulo_docente {
+        font-size: 1rem;
+    }
+    
+    .docente {
+        margin-top: 3rem;
+    }
+    
+    .producoes_texto {
+        font-size: 0.9rem;
+        text-align: justify;
+    }
+    
+    ol a li {
+        margin-left: 2rem;
     }
