@@ -11105,6 +11105,10 @@
     }
     
     .icone_coordenadoras {
+        margin-left: 4.5rem;
+    }
+    
+    .icone_coordenadoras img {
         width: 2rem;
     }
     
